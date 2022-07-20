@@ -32,6 +32,47 @@ int main() {
 	LinkedList<int>* iLL = NULL;//the integer linked list
 	LinkedList<string>* sLL = NULL;//the string linked list
 
+    //Start test code
+//    iLL = new LinkedList<int>();
+//    iLL->insertTail(10);
+//    cout << "list size = " << iLL->size() << endl;
+//    iLL->insertHead(20);
+//    cout << "list size = " << iLL->size() << endl;
+//    iLL->insertTail(10);
+//    cout << "list size = " << iLL->size() << endl;
+//    iLL->insertTail(25);
+//    cout << "list size = " << iLL->size() << endl;
+//    iLL->insertAfter(25, 20);
+//    cout << "list size = " << iLL->size() << endl;
+//    iLL->insertAfter(97, 10);
+//    cout << "list size = " << iLL->size() << endl;
+//    iLL->insertAfter(8008, 20);
+//    cout << "list size = " << iLL->size() << endl;
+//    cout << iLL->toString() << endl;
+//    iLL->clear();
+//    cout << "list size = " << iLL->size() << endl;
+//    cout << iLL->toString() << endl;
+//    iLL->remove(25);
+//    cout << "list size = " << iLL->size() << endl;
+//    cout << iLL->toString() << endl;
+//    iLL->remove(20);
+//    cout << "list size = " << iLL->size() << endl;
+//    cout << iLL->toString() << endl;
+//
+//    iLL->insertHead(1);
+//    cout << "list size = " << iLL->size() << endl;
+//    iLL->insertHead(2);
+//    cout << "list size = " << iLL->size() << endl;
+//    iLL->insertHead(3);
+//    cout << "list size = " << iLL->size() << endl;
+//    iLL->insertHead(4);
+//    cout << "list size = " << iLL->size() << endl;
+//    cout << iLL->toString() << endl;
+//
+//
+//    return 0;
+    //End test code
+
 	for (int i = 0; i < NUM_FILES; i++) {
 		ifs.open(fileArray[i]); // open the file to read from
 		ofs.open("out_" + fileArray[i]); // open the file to write to
